@@ -26,7 +26,6 @@ public class HandBag extends Bag{
     /**
      * Increase the capacity of this bag by 1.
      */
-    @Override
     public void enhance() {
         /* TODO: Implement this method.
          *       You may want to use the increaseCapacity() method that was
@@ -34,5 +33,6 @@ public class HandBag extends Bag{
          *
          * To call a method defined in a parent, you use super.method_name(...)
          */
+        super.increaseCapacity(1);
     }
 }
